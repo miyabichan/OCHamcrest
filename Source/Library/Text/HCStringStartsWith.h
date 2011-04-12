@@ -5,12 +5,13 @@
 //  Created by: Jon Reid
 //
 
-    // Inherited
 #import <OCHamcrest/HCSubstringMatcher.h>
 
 
 /**
     Tests if the argument is a string that starts with a substring.
+
+    @b Factory: @ref startsWith
     @ingroup text_matchers
  */
 @interface HCStringStartsWith : HCSubstringMatcher

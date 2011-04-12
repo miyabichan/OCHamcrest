@@ -5,12 +5,13 @@
 //  Created by: Jon Reid
 //
 
-    // Inherited
 #import <OCHamcrest/HCBaseMatcher.h>
 
 
 /**
     Matches a collection if any element satisfies a given matcher.
+
+    @b Factory: @ref hasItem, @ref hasItems
     @ingroup collection_matchers
  */
 @interface HCIsCollectionContaining : HCBaseMatcher

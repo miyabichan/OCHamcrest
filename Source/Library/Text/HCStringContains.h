@@ -5,12 +5,13 @@
 //  Created by: Jon Reid
 //
 
-    // Inherited
 #import <OCHamcrest/HCSubstringMatcher.h>
 
 
 /**
     Tests if the argument is a string that contains a substring.
+
+    @b Factory: @ref containsString
     @ingroup text_matchers
  */
 @interface HCStringContains : HCSubstringMatcher

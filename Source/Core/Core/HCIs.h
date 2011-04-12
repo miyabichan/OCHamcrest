@@ -5,7 +5,6 @@
 //  Created by: Jon Reid
 //
 
-    // Inherited
 #import <OCHamcrest/HCBaseMatcher.h>
 
 
@@ -22,6 +21,7 @@ assertThat(cheese, equalTo(smelly))
 assertThat(cheese, is(equalTo(smelly)))
 @endcode
 
+    @b Factory: @ref is
     @ingroup core_matchers
  */
 @interface HCIs : HCBaseMatcher

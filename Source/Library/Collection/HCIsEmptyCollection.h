@@ -5,12 +5,13 @@
 //  Created by: Jon Reid
 //
 
-    // Inherited
 #import <OCHamcrest/HCHasCount.h>
 
 
 /**
     Matches empty collection.
+
+    @b Factory: @ref empty
     @ingroup collection_matchers
  */
 @interface HCIsEmptyCollection : HCHasCount

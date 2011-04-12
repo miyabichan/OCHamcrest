@@ -5,12 +5,13 @@
 //  Created by: Jon Reid
 //
 
-    // Inherited
 #import <OCHamcrest/HCBaseMatcher.h>
 
 
 /**
     Is the object present in the given collection?
+
+    @b Factory: @ref isIn
     @ingroup collection_matchers
  */
 @interface HCIsIn : HCBaseMatcher

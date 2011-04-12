@@ -5,12 +5,13 @@
 //  Created by: Jon Reid
 //
 
-    // Inherited
 #import <OCHamcrest/HCInvocationMatcher.h>
 
 
 /**
     Does the object's @c -description satisfy a given matcher?
+
+    @b Factory: @ref hasDescription
     @ingroup object_matchers
  */
 @interface HCHasDescription : HCInvocationMatcher
